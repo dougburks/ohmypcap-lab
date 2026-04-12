@@ -1,4 +1,4 @@
-# OhMyPCAP Automatic Lab
+# OhMyPCAP Lab
 
 This scenario will **automatically** install Docker and then start OhMyPCAP with Suricata.
 
