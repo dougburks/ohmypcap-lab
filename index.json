@@ -1,0 +1,27 @@
+{
+  "title": "OhMyPCAP - Automatic PCAP Analysis Lab",
+  "description": "One-click setup: Docker + OhMyPCAP ready in under 40 seconds",
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Automatic Setup",
+        "text": "step1/text.md",
+        "background": "step1/background.sh"
+      },
+      {
+        "title": "Verify & Launch OhMyPCAP",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  }
+}
