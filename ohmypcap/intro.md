@@ -2,4 +2,4 @@
 
 This scenario will **automatically** install OhMyPCAP.
 
-Just click **START** and sit back and relax.
+Just click the START button below and sit back and relax!
