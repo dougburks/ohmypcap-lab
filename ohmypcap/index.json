@@ -7,16 +7,7 @@
   "details": {
     "intro": {
       "text": "intro.md"
-    },
-    "steps": [
-      {
-        "title": "Automatic Setup",
-        "text": "step1/text.md",
-        "foreground": "step1/foreground.sh"
-      }
-    ],
-    "finish": {
-      "text": "finish.md"
+      "foreground": "foreground.sh"
     }
   }
 }
