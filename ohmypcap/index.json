@@ -13,11 +13,6 @@
         "title": "Automatic Setup",
         "text": "step1/text.md",
         "foreground": "step1/foreground.sh"
-      },
-      {
-        "title": "Verify & Launch OhMyPCAP",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
       }
     ],
     "finish": {
