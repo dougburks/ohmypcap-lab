@@ -1,3 +1,3 @@
-Welcome to OhMyPCAP!
+Welcome to your temporary OhMyPCAP instance!
 
-Just click the START button below and sit back and relax!
+Once the terminal says **Welcome to OhMyPCAP**, click here to connect to it: [OhMyPCAP]({{TRAFFIC_HOST1_8000}})
