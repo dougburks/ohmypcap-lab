@@ -5,7 +5,7 @@
     "imageid": "ubuntu"
   },
   "details": {
-    "intro": {
+    "finish": {
       "text": "intro.md",
       "foreground": "foreground.sh"
     }
