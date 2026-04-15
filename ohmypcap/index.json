@@ -1,6 +1,6 @@
 {
-  "title": "OhMyPCAP - Automatic PCAP Analysis Lab",
-  "description": "One-click setup: Docker + OhMyPCAP ready in under 40 seconds",
+  "title": "OhMyPCAP",
+  "description": "Analyze your PCAP files fast!",
   "backend": {
     "imageid": "ubuntu"
   },

@@ -8,3 +8,5 @@ docker run -d \
   -v ~/ohmypcap-data:/data \
   -p 8000:8000 \
   ghcr.io/dougburks/ohmypcap:main
+
+docker logs ohmypcap
