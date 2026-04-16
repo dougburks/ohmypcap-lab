@@ -13,4 +13,4 @@ Before we get started, please note the following:
 
 ### Get Started
 
-Click the START button below to get started!
+To get started, click the START button below! ⬇
