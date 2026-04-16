@@ -1,4 +1,4 @@
-OhMyPCAP is starting now and it may take a minute or two for it to download rules from Emerging Threats.
+OhMyPCAP is starting now and it may take a minute or so for it to be ready.
 
 You can view progress in the terminal on the right.
 
