@@ -6,4 +6,4 @@ Also note that free accounts are limited to 60 minutes of usage before the insta
 
 If you need a private or permanent instance of OhMyPCAP, please see the other options at https://github.com/dougburks/ohmypcap.
 
-Click the START button below to start OhMyPCAP.
+Click the START button below to get started!
