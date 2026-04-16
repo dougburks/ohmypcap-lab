@@ -1,3 +1,7 @@
-OhMyPCAP is starting now and you can view progress in the terminal on the right.
+OhMyPCAP is starting now and it may take a minute or two for it to download rules from Emerging Threats.
 
-Once the terminal says **Welcome to OhMyPCAP**, click here to connect to it: [OhMyPCAP]({{TRAFFIC_HOST1_8000}})
+You can view progress in the terminal on the right.
+
+Once the terminal says **Welcome to OhMyPCAP**, click here to connect to it:
+
+[OhMyPCAP]({{TRAFFIC_HOST1_8000}})
