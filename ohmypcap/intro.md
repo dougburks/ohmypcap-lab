@@ -1,4 +1,4 @@
-Welcome to your temporary OhMyPCAP instance!
+Welcome to your demo of OhMyPCAP!
 
 Please note that this is a cloud based service so please do not share any sensitive PCAP files or any other sensitive info. 
 
