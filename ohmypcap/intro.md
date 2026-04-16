@@ -1,6 +1,6 @@
 Welcome to your demo of OhMyPCAP!
 
-## About OhMyPCAP
+## About
 
 OhMyPCAP allows you to download a PCAP file from the web or upload a PCAP from your local collection. It will then analyze that PCAP and allow you to view security alerts, browse network metadata (DNS, HTTP, TLS, flows), extract ASCII transcripts, and carve individual streams — all from a single-page UI.
 
