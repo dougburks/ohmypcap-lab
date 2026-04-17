@@ -13,4 +13,4 @@ Before we get started, please note the following:
 
 ### Get Started
 
-To get started, sign into Killercode using one of the options on the right and then click the START button below! ⬇
+To get started, sign into Killercoda using one of the options on the right and then click the START button below! ⬇
