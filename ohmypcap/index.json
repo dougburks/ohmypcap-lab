@@ -1,6 +1,6 @@
 {
   "title": "OhMyPCAP",
-  "description": "Analyze your PCAP files, view alerts, and then slice and dice your network metadata!",
+  "description": "Analyze your pcap files, view alerts, and then slice and dice your network metadata!",
   "backend": {
     "imageid": "ubuntu"
   },
