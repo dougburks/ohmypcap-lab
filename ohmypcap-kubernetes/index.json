@@ -1,0 +1,16 @@
+{
+  "title": "OhMyPCAP on Kubernetes",
+  "description": "Analyze your pcap files, view alerts, and then slice and dice your network metadata!",
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  },
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md",
+      "foreground": "foreground.sh"
+    }
+  }
+}
