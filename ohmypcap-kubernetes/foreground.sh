@@ -7,7 +7,11 @@
 ##############################################
 kubectl run ohmypcap --image=ghcr.io/dougburks/ohmypcap:main
 kubectl expose pod ohmypcap --port 8000 --name ohmypcap
-kubectl wait --for=condition=ready pod ohmypcap
+
+##############################################
+# Waiting for rule update and service start
+##############################################
+kubectl wait --for=condition=ready pod ohmypcap --timeout=5m
 
 ##############################################
 # Forwarding port 8000
