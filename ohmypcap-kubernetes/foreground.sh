@@ -20,4 +20,5 @@ kubectl wait --for=condition=ready pod ohmypcap --timeout=5m
 ##############################################
 # Forwarding port 8000
 ##############################################
+sleep 1s
 kubectl port-forward --address 0.0.0.0 service/ohmypcap 8000:8000
