@@ -6,6 +6,10 @@
 # Downloading and running OhMyPCAP
 ##############################################
 kubectl run ohmypcap --image=ghcr.io/dougburks/ohmypcap:main
+
+##############################################
+# Exposing pod
+##############################################
 kubectl expose pod ohmypcap --port 8000 --name ohmypcap
 
 ##############################################
