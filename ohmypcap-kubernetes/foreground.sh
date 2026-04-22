@@ -5,16 +5,6 @@
 ##############################################
 # Downloading and running OhMyPCAP
 ##############################################
-#kubectl run ohmypcap --image=ghcr.io/dougburks/ohmypcap:main
-
-##############################################
-# Exposing pod
-##############################################
-#kubectl expose pod ohmypcap --port 8000 --name ohmypcap
-
-##############################################
-# Waiting for rule update and service start
-##############################################
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
@@ -46,8 +36,12 @@ spec:
     - port: 8000
       targetPort: 8000
 EOF
+
+##############################################
+# Waiting for rule update and service start
+# This may take a minute or two
+##############################################
 kubectl wait --for=condition=ready pod ohmypcap --timeout=5m
-sleep 5s
 
 ##############################################
 # Forwarding port 8000
