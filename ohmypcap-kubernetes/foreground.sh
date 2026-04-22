@@ -16,7 +16,7 @@ kubectl expose pod ohmypcap --port 8000 --name ohmypcap
 # Waiting for rule update and service start
 ##############################################
 kubectl wait --for=condition=ready pod ohmypcap --timeout=5m
-sleep 1s
+sleep 5s
 
 ##############################################
 # Forwarding port 8000
