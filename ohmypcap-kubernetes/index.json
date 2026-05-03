@@ -1,6 +1,6 @@
 {
   "title": "OhMyPCAP on Kubernetes",
-  "description": "Analyze your pcap files, view alerts, and then slice and dice your network metadata!",
+  "description": "Run standard OhMyPCAP but on Kubernetes",
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
   },

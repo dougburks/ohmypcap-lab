@@ -1,6 +1,6 @@
 {
   "title": "OhMyPCAP DEV",
-  "description": "Analyze your pcap files, view alerts, and then slice and dice your network metadata!",
+  "description": "This uses the DEV branch of OhMyPCAP so it may not be stable!",
   "backend": {
     "imageid": "ubuntu"
   },
