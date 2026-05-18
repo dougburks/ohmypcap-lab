@@ -4,7 +4,7 @@ OhMyPCAP is starting now and it may take a minute or so for it to be ready. You 
 
 ### Connecting to OhMyPCAP
 
-Once the terminal stops outputting and says **OhMyPCAP running**, click the following link to connect to it:
+Once the terminal stops outputting and says **OhMyPCAP is now running**, click the following link to connect to it:
 
 ➡ [OhMyPCAP]({{TRAFFIC_HOST1_8000}}) ⬅
 
