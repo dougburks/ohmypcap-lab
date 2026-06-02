@@ -1,6 +1,6 @@
 {
-  "title": "OhMyPCAP DEV",
-  "description": "This uses the DEV branch of OhMyPCAP so it may not be stable!",
+  "title": "SO-CRATES DEV",
+  "description": "This uses the DEV branch of SO-CRATES so it may not be stable!",
   "backend": {
     "imageid": "ubuntu"
   },
