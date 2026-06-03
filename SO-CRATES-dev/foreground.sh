@@ -5,7 +5,7 @@
 ##############################################
 # Creating data directory
 ##############################################
-mkdir -p ~/socrates-data && chmod 777 ~/socrates-data
+#mkdir -p ~/socrates-data && chmod 777 ~/socrates-data
 
 ##############################################
 # Downloading and running SO-CRATES
