@@ -1,4 +1,10 @@
 ##############################################
+# Installing podman-compose
+##############################################
+DEBIAN_FRONTEND=noninteractive apt-get update -qq
+DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends podman-compose
+
+##############################################
 # Downloading and running SO-CRATES DEV
 ##############################################
 wget https://raw.githubusercontent.com/dougburks/ohmypcap/refs/heads/dev/docker-compose.yml
@@ -13,6 +19,4 @@ cat <<EOF >>docker-compose.yml
     env_file:
       - .env
 EOF
-DEBIAN_FRONTEND=noninteractive apt-get update -qq &&
-  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends podman-compose
 podman-compose up
