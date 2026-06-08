@@ -1,8 +1,13 @@
 ##############################################
-# Installing podman-compose
+Setting up podman-compose (this may take a minute)...
 ##############################################
-DEBIAN_FRONTEND=noninteractive apt-get update -qq
-DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends podman-compose || true
+
+while [ ! -f /tmp/setup_complete ]; do
+    sleep 2
+done
+
+echo "✅ Setup completed!"
+echo "podman-compose version: $(podman-compose --version)"
 
 ##############################################
 # Downloading and running SO-CRATES DEV
