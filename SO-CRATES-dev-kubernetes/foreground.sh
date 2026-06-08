@@ -1,9 +1,9 @@
 ##############################################
-# Let's get ready for OhMyPCAP on Kubernetes!
+# Let's get ready for SO-CRATES on Kubernetes!
 ##############################################
 
 ##############################################
-# Downloading and running OhMyPCAP
+# Downloading and running SO-CRATES
 ##############################################
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
