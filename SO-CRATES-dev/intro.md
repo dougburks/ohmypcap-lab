@@ -2,11 +2,18 @@ Welcome to your demo of SO-CRATES!
 
 ### WARNING!
 
-This is using the dev branch which may be unstable!
+This is using the dev version which may be unstable!
 
 ### About
 
-SO-CRATES is a standalone web application for analyzing network traffic (PCAP), log files, and binary files. Features include Suricata network analysis, YARA binary scanning, Sigma rule detection for logs, and a single-page UI for browsing alerts, metadata, transcripts, and hexdumps.
+SO-CRATES is a standalone web application for analyzing network traffic (PCAP), log files, and binary files.
+
+### Features
+
+- Suricata network analysis
+- YARA binary scanning
+- Sigma rule detection for logs
+- single-page UI for browsing alerts, metadata, transcripts, and hexdumps
 
 ### Notes
 

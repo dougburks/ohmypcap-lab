@@ -1,6 +1,6 @@
 {
   "title": "SO-CRATES DEV",
-  "description": "This uses the DEV branch of SO-CRATES so it may not be stable!",
+  "description": "This uses the DEV version of SO-CRATES so it may be unstable!",
   "backend": {
     "imageid": "ubuntu"
   },
