@@ -1,6 +1,6 @@
-##############################################
+########################################################
 # Setting up podman-compose (this may take a minute)...
-##############################################
+########################################################
 
 while [ ! -f /tmp/setup_complete ]; do
   sleep 2
@@ -9,9 +9,9 @@ done
 echo "✅ Setup completed!"
 echo "podman-compose version: $(podman-compose --version)"
 
-##############################################
+########################################################
 # Downloading and running SO-CRATES DEV
-##############################################
+########################################################
 wget https://raw.githubusercontent.com/dougburks/ohmypcap/refs/heads/dev/docker-compose.yml
 wget https://raw.githubusercontent.com/dougburks/ohmypcap/refs/heads/dev/docker-compose.podman.yml
 sed -i 's|ghcr.io/dougburks/so-crates:main|ghcr.io/dougburks/ohmypcap:dev|g' docker-compose.yml
