@@ -13,5 +13,6 @@ cat <<EOF >>docker-compose.yml
     env_file:
       - .env
 EOF
-apt -y install podman-compose
+DEBIAN_FRONTEND=noninteractive apt-get update -qq &&
+  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends podman-compose
 podman-compose up
