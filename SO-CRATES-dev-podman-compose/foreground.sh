@@ -13,4 +13,5 @@ cat <<EOF >>docker-compose.yml
     env_file:
       - .env
 EOF
+apt -y install podman-compose
 podman-compose up
