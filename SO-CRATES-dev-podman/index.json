@@ -1,0 +1,16 @@
+{
+  "title": "SO-CRATES DEV via Podman",
+  "description": "Podman running the DEV version of SO-CRATES so it may be unstable!",
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md",
+      "foreground": "foreground.sh"
+    }
+  }
+}
