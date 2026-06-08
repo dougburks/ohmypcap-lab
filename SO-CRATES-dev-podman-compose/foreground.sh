@@ -1,9 +1,9 @@
 ##############################################
-Setting up podman-compose (this may take a minute)...
+# Setting up podman-compose (this may take a minute)...
 ##############################################
 
 while [ ! -f /tmp/setup_complete ]; do
-    sleep 2
+  sleep 2
 done
 
 echo "✅ Setup completed!"

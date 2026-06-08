@@ -10,7 +10,8 @@
     },
     "finish": {
       "text": "finish.md",
-      "foreground": "foreground.sh"
+      "foreground": "foreground.sh",
+      "background": "background.sh"
     }
   }
 }
