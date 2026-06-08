@@ -9,13 +9,13 @@ cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ohmypcap
+  name: so-crates
   labels:
-    app: ohmypcap
+    app: so-crates
 spec:
   containers:
-    - name: ohmypcap
-      image: ghcr.io/dougburks/ohmypcap:main
+    - name: so-crates
+      image: ghcr.io/dougburks/ohmypcap:dev
       ports:
         - containerPort: 8000
       readinessProbe:
@@ -28,10 +28,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: ohmypcap
+  name: so-crates
 spec:
   selector:
-    app: ohmypcap
+    app: so-crates
   ports:
     - port: 8000
       targetPort: 8000
@@ -41,9 +41,9 @@ EOF
 # Waiting for rule update and service start
 # This may take a minute or two
 ##############################################
-kubectl wait --for=condition=ready pod ohmypcap --timeout=5m
+kubectl wait --for=condition=ready pod so-crates --timeout=5m
 
 ##############################################
 # Forwarding port 8000
 ##############################################
-kubectl port-forward --address 0.0.0.0 service/ohmypcap 8000:8000
+kubectl port-forward --address 0.0.0.0 service/so-crates 8000:8000
