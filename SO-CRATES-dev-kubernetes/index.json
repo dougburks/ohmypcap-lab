@@ -1,5 +1,5 @@
 {
-  "title": "SO-CRATES DEV on Kubernetes",
+  "title": "SO-CRATES DEV via Kubernetes",
   "description": "Kubernetes running the DEV version of SO-CRATES so it may be unstable!",
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
