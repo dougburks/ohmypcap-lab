@@ -1,8 +1,8 @@
 ##############################################
 # Downloading and running SO-CRATES DEV
 ##############################################
-wget https://raw.githubusercontent.com/dougburks/ohmypcap/refs/heads/dev/docker-compose.yml
-sed -i 's|ghcr.io/dougburks/so-crates:main|ghcr.io/dougburks/ohmypcap:dev|g' docker-compose.yml
+wget https://raw.githubusercontent.com/dougburks/so-crates/refs/heads/dev/docker-compose.yml
+sed -i 's|ghcr.io/dougburks/so-crates:main|ghcr.io/dougburks/so-crates:dev|g' docker-compose.yml
 mkdir socrates-data
 chmod 777 socrates-data
 cat <<EOF >>.env

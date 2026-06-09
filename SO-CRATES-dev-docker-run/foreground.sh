@@ -1,4 +1,4 @@
 ##############################################
 # Downloading and running SO-CRATES DEV
 ##############################################
-docker run --name so-crates -e DEMO=1 -p 8000:8000 ghcr.io/dougburks/ohmypcap:dev
+docker run --name so-crates -e DEMO=1 -p 8000:8000 ghcr.io/dougburks/so-crates:dev

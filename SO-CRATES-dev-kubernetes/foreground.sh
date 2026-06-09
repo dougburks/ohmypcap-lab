@@ -15,7 +15,7 @@ metadata:
 spec:
   containers:
     - name: so-crates
-      image: ghcr.io/dougburks/ohmypcap:dev
+      image: ghcr.io/dougburks/so-crates:dev
       ports:
         - containerPort: 8000
       readinessProbe:

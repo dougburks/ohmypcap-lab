@@ -1,8 +1,4 @@
-Welcome to your demo of SO-CRATES via Podman Compose!
-
-### WARNING!
-
-This is using the dev version which may be unstable!
+Welcome to your demo of SO-CRATES!
 
 ### About
 

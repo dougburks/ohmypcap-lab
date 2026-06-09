@@ -1,6 +1,6 @@
 {
-  "title": "OhMyPCAP",
-  "description": "Analyze your pcap files, view alerts, and then slice and dice your network metadata!",
+  "title": "SO-CRATES",
+  "description": "Security Onion Containerized Rapid Analysis of Threats, Evil, and Sus",
   "backend": {
     "imageid": "ubuntu"
   },
