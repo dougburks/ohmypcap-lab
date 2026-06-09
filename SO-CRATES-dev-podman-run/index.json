@@ -1,5 +1,5 @@
 {
-  "title": "SO-CRATES DEV via Podman",
+  "title": "SO-CRATES DEV via podman run",
   "description": "Podman running the DEV version of SO-CRATES so it may be unstable!",
   "backend": {
     "imageid": "ubuntu"

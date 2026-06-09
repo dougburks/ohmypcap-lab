@@ -1,6 +1,6 @@
 {
-  "title": "SO-CRATES DEV via Docker Compose",
-  "description": "Docker Compose running the DEV version of SO-CRATES so it may be unstable!",
+  "title": "SO-CRATES DEV via docker compose",
+  "description": "docker compose running the DEV version of SO-CRATES so it may be unstable!",
   "backend": {
     "imageid": "ubuntu"
   },
