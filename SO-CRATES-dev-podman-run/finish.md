@@ -4,7 +4,7 @@ SO-CRATES is starting now and it may take a minute or so for it to be ready. You
 
 ### Connecting to SO-CRATES
 
-Once the terminal stops outputting and says **SO-CRATES running**, click the following link to connect to it:
+Once the terminal stops outputting and says **SO-CRATES is now running**, click the following link to connect to it:
 
 ➡ [SO-CRATES]({{TRAFFIC_HOST1_8000}}) ⬅
 

@@ -16,6 +16,11 @@ spec:
   containers:
     - name: so-crates
       image: ghcr.io/dougburks/so-crates:dev
+      env:
+        - name: DEMO
+          value: "1"
+        - name: ALLOWED_HOSTS
+          value: "*.killercoda.com"
       ports:
         - containerPort: 8000
       readinessProbe:
